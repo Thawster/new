@@ -1,1 +1,1 @@
-web: gunicorn makewiki.wgsi --log-file -
+web: gunicorn makewiki.wgsi --log-file--
