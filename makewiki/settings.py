@@ -26,7 +26,8 @@ SECRET_KEY = '1yct-t!2bnkgc7j59z+9cdd2k)@y+ftqor$!aya()3if^cnlo-'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    ALLOWED_HOSTS = ['localhost', 'uniqueprojectname.herokuapp.com']
+    "localhost", 
+    "uniqueprojectname.herokuapp.com"
 ]
 
 
@@ -133,7 +134,7 @@ STATICFILES_DIRS = [
      os.path.join(BASE_DIR, "static"),
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, ‘staticfiles’)
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 # wiki app settings
 WIKI_PAGE_TITLE_MAX_LENGTH = 600
