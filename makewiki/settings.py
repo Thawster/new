@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost", 
-    "uniqueprojectname.herokuapp.com"
+    "makewiki-v2.herokuapp.com"
 ]
 
 
