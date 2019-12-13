@@ -1,1 +1,1 @@
-web: gunicorn FindLost.wsgi --log-file -
+web: gunicorn makewiki.wsgi --log-file -
